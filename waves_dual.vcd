@@ -1,0 +1,140 @@
+$date
+	Tue Jan 13 03:43:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_column_reducer_dual $end
+$var wire 1 ! result_valid $end
+$var wire 64 " result [63:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ done $end
+$var reg 32 % num_in [31:0] $end
+$var reg 1 & num_valid $end
+$var reg 1 ' op_in $end
+$var reg 1 ( op_valid $end
+$var reg 1 ) rst $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ done $end
+$var wire 32 * num_in [31:0] $end
+$var wire 1 & num_valid $end
+$var wire 1 ' op_in $end
+$var wire 1 ( op_valid $end
+$var wire 1 ) rst $end
+$var reg 1 + op $end
+$var reg 64 , prod_acc [63:0] $end
+$var reg 64 - result [63:0] $end
+$var reg 1 ! result_valid $end
+$var reg 1 . started $end
+$var reg 64 / sum_acc [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx /
+x.
+bx -
+bx ,
+x+
+bx *
+1)
+0(
+x'
+0&
+bx %
+0$
+0#
+bx "
+x!
+$end
+#5000
+0!
+b0 "
+b0 -
+0+
+0.
+b1 ,
+b0 /
+1#
+#10000
+0#
+#15000
+1#
+#20000
+0#
+b1111011 %
+b1111011 *
+1&
+0)
+#25000
+1.
+b1111011 ,
+b1111011 /
+1#
+#30000
+0#
+1'
+1(
+#35000
+b11101100011001 ,
+b11110110 /
+1+
+1#
+#40000
+0#
+b101101 %
+b101101 *
+0(
+#45000
+b10100110001101100101 ,
+b100100011 /
+1#
+#50000
+0#
+b110 %
+b110 *
+#55000
+b1111100101010001011110 ,
+b100101001 /
+1#
+#60000
+0#
+1$
+0&
+#65000
+0.
+b1 ,
+b0 /
+1!
+b1111100101010001011110 "
+b1111100101010001011110 -
+1#
+#70000
+0#
+0$
+#75000
+0!
+1#
+#80000
+0#
+#85000
+1#
+#90000
+0#
+#95000
+1#
+#100000
+0#
+#105000
+1#
+#110000
+0#
+#115000
+1#
+#120000
+0#
